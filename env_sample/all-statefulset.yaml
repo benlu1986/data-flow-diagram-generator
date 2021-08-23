@@ -1,0 +1,179 @@
+apiVersion: v1
+items:
+- apiVersion: apps/v1
+  kind: StatefulSet
+  metadata:
+    creationTimestamp: "2020-07-07T00:23:18Z"
+    generation: 13
+    labels:
+      app: account-coordinator
+      app.kubernetes.io/component: account-coordinator
+      app.kubernetes.io/instance: account-coordinator
+      app.kubernetes.io/managed-by: Tiller
+      app.kubernetes.io/name: account-coordinator
+      app.kubernetes.io/version: 0.0.67
+      autonomic.ai/component-full-name: account-coordinator
+      autonomic.ai/kafka-access: "true"
+      autonomic.ai/team: accounts-identity
+      baseChart: base-2.22.14
+      chart: account-coordinator-0.0.1
+      component: account-coordinator
+      heritage: Tiller
+      kafka: "true"
+      release: account-coordinator
+    name: account-coordinator
+    namespace: alfa
+    resourceVersion: "176948006"
+    selfLink: /apis/apps/v1/namespaces/alfa/statefulsets/account-coordinator
+    uid: 0e91d45c-bfe8-11ea-a3c1-02eb7138b112
+  spec:
+    podManagementPolicy: OrderedReady
+    replicas: 0
+    revisionHistoryLimit: 10
+    selector:
+      matchLabels:
+        app: account-coordinator
+        component: account-coordinator
+        release: account-coordinator
+    serviceName: account-coordinator
+    template:
+      metadata:
+        annotations:
+          chaos.alpha.kubernetes.io/enabled: "true"
+          prometheus.io/path: /actuator/prometheus
+          prometheus.io/port: "8081"
+          prometheus.io/scrape: "true"
+        creationTimestamp: null
+        labels:
+          app: account-coordinator
+          app.kubernetes.io/component: account-coordinator
+          app.kubernetes.io/instance: account-coordinator
+          app.kubernetes.io/managed-by: Tiller
+          app.kubernetes.io/name: account-coordinator
+          app.kubernetes.io/version: 0.0.67
+          autonomic.ai/api-server-access: "true"
+          autonomic.ai/component-full-name: account-coordinator
+          autonomic.ai/kafka-access: "true"
+          autonomic.ai/team: accounts-identity
+          baseChart: base-2.22.14
+          chart: account-coordinator-0.0.1
+          component: account-coordinator
+          heritage: Tiller
+          kafka: "true"
+          release: account-coordinator
+      spec:
+        containers:
+        - env:
+          - name: DD_INTEGRATION_KAFKA_ENABLED
+            value: "true"
+          - name: DD_KAFKA_ANALYTICS_ENABLED
+            value: "true"
+          - name: GLOBAL_KAFKA_BROKERS
+            value: kafka-kafka.alfa:9092
+          - name: GLOBAL_KAFKA_ENDPOINT
+            value: kafka-kafka
+          - name: GLOBAL_KAFKA_REPLICATIONFACTOR
+            value: "3"
+          - name: JAVA_TOOL_OPTIONS
+            value: -Xmx1024m -Xms1024m -XX:+UseG1GC
+          - name: KAFKA_ENDPOINT
+            value: kafka-kafka
+          - name: SPRING_APPLICATION_JSON
+            value: '{"spring":{"application":{"name":"account-coordinator"},"profiles":{"active":"cnp0"}}}'
+          image: registry.cn-shanghai.aliyuncs.com/au/account-coordinator:0.0.67
+          imagePullPolicy: IfNotPresent
+          livenessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /actuator/health/liveness
+              port: 8081
+              scheme: HTTP
+            initialDelaySeconds: 90
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          name: account-coordinator
+          ports:
+          - containerPort: 8081
+            protocol: TCP
+          - containerPort: 8090
+            name: grpc
+            protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /actuator/health/readiness
+              port: 8081
+              scheme: HTTP
+            initialDelaySeconds: 90
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          resources:
+            limits:
+              cpu: 500m
+              memory: 1792Mi
+            requests:
+              cpu: 500m
+              memory: 1792Mi
+          securityContext:
+            allowPrivilegeEscalation: false
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /home/au/kafka-streams
+            name: kafka-streams
+          - mountPath: /home/au/application.yaml
+            name: spring
+            readOnly: true
+            subPath: application.yaml
+          workingDir: /home/au
+        dnsConfig:
+          searches:
+          - account-coordinator.baddns.local
+          - alfa.svc.cluster.local
+        dnsPolicy: ClusterFirst
+        imagePullSecrets:
+        - name: autonomic-docker
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext:
+          fsGroup: 1000
+          runAsNonRoot: true
+          runAsUser: 1000
+        serviceAccount: account-coordinator
+        serviceAccountName: account-coordinator
+        terminationGracePeriodSeconds: 30
+        volumes:
+        - configMap:
+            defaultMode: 420
+            name: account-coordinator-spring
+          name: spring
+    updateStrategy:
+      type: RollingUpdate
+    volumeClaimTemplates:
+    - apiVersion: v1
+      kind: PersistentVolumeClaim
+      metadata:
+        creationTimestamp: null
+        name: kafka-streams
+      spec:
+        accessModes:
+        - ReadWriteOnce
+        resources:
+          requests:
+            storage: 20Gi
+        storageClassName: encrypted-gp2
+        volumeMode: Filesystem
+      status:
+        phase: Pending
+  status:
+    collisionCount: 0
+    currentRevision: account-coordinator-59bcbb767d
+    observedGeneration: 13
+    replicas: 0
+    updateRevision: account-coordinator-59bcbb767d
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""

@@ -1,0 +1,141 @@
+apiVersion: v1
+items:
+- apiVersion: v1
+  data:
+    application.yaml: |
+      # Application properties are stored in the helm chart within the infrastructure folder.
+      # A symlink should have been created if the install script was run.
+
+      # Universal properties
+      logging:
+        level:
+          com.autonomic: INFO
+
+      spring:
+        jackson:
+          property-naming-strategy: LOWER_CAMEL_CASE
+        cloud.kubernetes:
+          config.enabled: true
+          secrets.enabled: true
+
+      au:
+        kstream:
+          monitor:
+            enable: true
+          streamStateMonitor:
+            summaryRateInterval: 300000
+            enable: true
+      kafka:
+        streams:
+          application-id: aba-swap-detector
+          broker-list: "${KAFKA_ENDPOINT}:9092"
+          auto-offset-reset: earliest
+          retries: 7200
+          producer-retry-backoff-ms: 500
+          telemetry-ingest-topic: ftcp-ingest-processed
+          provisioning-audit-topic: provisioning-audit
+          command-ingest-topic: fabric-normalized-resource-command-request-ingest
+          acks: all
+          replication-factor: 3
+          streamThreads: 4
+
+      assets:
+        service:
+          hostname: assets-service.assets.svc.cluster.local
+          port: 8090
+          timeout: 10000
+          keep-alive-ms: 50000
+
+      syncp-message:
+        service:
+          hostname: syncp-message.key-encryption.svc.cluster.local
+          port: 8090
+          keep-alive-ms: 50000
+          timeout: 10000
+
+      workflow-processing-engine:
+        service:
+          hostname: workflow-processing-engine-service
+          port: 8090
+          timeout: 10000
+
+      source-connectivity-provider-mapping:
+        test-source-ford: ford/vsdn
+
+      connectivity-provider-update-gate:
+        enable: false
+        percentage: 0
+
+      auth-provisioning-status-update-gate:
+        enable: true
+        percentage: 100
+
+      abaswap:
+        feature-toggle:
+          self-heal:
+            enabled: true
+            missing-vehicle-enabled: true
+            non-aba-swap-bindings-mismatch-enabled: false
+            pre-ftcp6-protocol-version-mismatch-enabled: false
+            missing-metadata-enabled: true
+          is-supporting-source-and-region-code-vehicle-tags-enabled: false
+
+
+      ftcp:
+        command:
+          pdrcExpirationSeconds: 60
+
+      command-query-client:
+        host: command-query-service
+        port: 8090
+
+      ---
+      spring.profiles: cnp0
+      abaswap:
+        feature-toggle:
+          self-heal:
+            enabled: false
+            missing-metadata-enabled: false
+            missing-vehicle-enabled: false
+            non-aba-swap-bindings-mismatch-enabled: false
+            pre-ftcp6-protocol-version-mismatch-enabled: false
+      auth-provisioning-status-update-gate:
+        enable: true
+        percentage: 100
+      logging.level:
+        com.autonomic: INFO
+      provisioning:
+        permissions:
+        - role: aui:iam:role/manufacturer
+          subject: aui:iam:user/service-account-ford/manufacturer
+        - role: aui:iam:role/billable
+          subject: aui:iam:user/service-account-ford/billing
+        - role: aui:iam:role/deployment-manager
+          subject: aui:iam:user/service-account-ford/deployment-manager
+  kind: ConfigMap
+  metadata:
+    annotations:
+    creationTimestamp: "2020-08-07T20:48:20Z"
+    labels:
+      app: aba-swap-detector
+      app.kubernetes.io/component: spring
+      app.kubernetes.io/instance: aba-swap-detector-cnp0-alfa
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: aba-swap-detector
+      app.kubernetes.io/version: 0.0.114
+      autonomic.ai/component-full-name: aba-swap-detector-spring
+      autonomic.ai/team: canis-minor
+      baseChart: base-3.1.42
+      chart: aba-swap-detector-0.0.1
+      component: spring
+      heritage: Helm
+      release: aba-swap-detector
+    name: aba-swap-detector-spring
+    namespace: alfa
+    resourceVersion: "339386160"
+    selfLink: /api/v1/namespaces/alfa/configmaps/aba-swap-detector-spring
+    uid: 5419d3a6-d8ef-11ea-a3c1-02eb7138b112
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""

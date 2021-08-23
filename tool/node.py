@@ -14,7 +14,7 @@ def convert(obj):
   if type(obj) == Node:
     return obj.__dict__
   if type(obj) == NodeType:
-    return str(obj)
+    return obj.name
   elif type(obj) == set:
     return ','.join(map(lambda node: node.name, obj))
   else:

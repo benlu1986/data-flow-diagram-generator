@@ -1,2936 +1,2936 @@
 [
   {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "command-management-service-command-queue-entry-state-store-changelog"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "snapped-location"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-wheel-brake-torque"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "command-management-service,edge-service",
-    "name": "fabric-outbound-deployments"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "asset-pid-binding-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-aa9d7ac9-9675-4a6c-83cc-01c9aa2e90d9"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-ingest-decrypted-raw-replay"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ams-device-actuation-history-internal-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "mqtt-ingest-testing-2xp"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "debezium_connector_status"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-converter-abort"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "device-connectivity-service-device-connectivity-historical-connectivity-store-1-changelog"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-14e58f0e-268a-4caf-bb70-32e08755d79f"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "deployment-service",
-    "name": "device-deployment-state-internal"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-hood-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "iam-processor",
-    "name": "iam-memberships"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-ignition-status"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-06e92f3f-c708-4e70-bbb0-24f45637d38f"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-3de4cb8c-3a16-4acd-b325-f648aedb98aa"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "deployment-service",
-    "name": "deployment-failed-matchers"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "command-management-service",
-    "parent": "",
-    "name": "cms-internal-command-delivery-requests"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "iam-processor,telemetry-ingest-usage-collector",
-    "name": "iam-permissions"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "vehicle-inventory-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "syncp-archive-raw"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "deployment-service-internal-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "supplier-record-acknowledgement"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "fabric-asset-group"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-ev-battery-performance"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "kms-import-keys"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "edge-fnv2-service,edge-service",
-    "name": "outbound-device-deployments"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "diverted-far-future-envelopes"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ride-hailing-routing-event"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "vehicle-id-stream"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "ftcp-adaptor-error-reporter,ftcp-decryptor",
-    "parent": "ftcp-device-readiness,ftcp-command-responses,ftcp-converter",
-    "name": "ftcp-adaptor-errors"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "ftcp-decryptor,ftcp-raw-packager",
-    "parent": "ftcp-decryptor",
-    "name": "ftcp-ingest-decrypted-raw"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "command-management-service-preclusion-state-store-changelog"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "fence-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "sorted-device-command-history-global-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "cvfta-conversion-decryption-failed"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "ftcp-telemetry-audit,tms-e2e-monitor,ftcp-decryptor",
-    "parent": "mqtt-ingest,ftcp-ingest,provisioning-monitor,ftcp-command-e2e-monitor",
-    "name": "ftcp-ingest-2xp"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "morp-internal.au.fnv2.alert.provisioning-alert"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "binding-change-events-trial"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "mqtt-ingest,mqtt-connectivity-monitor",
-    "parent": "",
-    "name": "hivemq-raw-ftcp-telemetry-2xp-high-volume"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "ftcp-command-responses",
-    "name": "command-responses-abort-topic"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "usage-v2"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "cloud-to-device-encryptor",
-    "name": "provisioning-vehicle-commands"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ride-hailing-vehicle-location-updated"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-gnss-speed"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "ftcp-device-readiness",
-    "name": "ftcp-connectivity-aborted-messages"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "iam-audit-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "edge-fnv2-service,bytestream-service,edge-service",
-    "name": "bytestream-service-device-id-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "vehicle-api-command-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "account-coordinator-event-consumer-offsets-v1-AccountUpdateQuerier"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "device-deployment-requests"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "deployment-service",
-    "parent": "",
-    "name": "deployment-service-internal-cancellation-requests"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "command-management-service-device-deployment-queue-state-store-changelog"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "ftcp-unbatching-service",
-    "parent": "tms-e2e-monitor,ftcp-decryptor",
-    "name": "ftcp-batch-alerts"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "vsdn-integration-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-engine-speed"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-decryptor-failed-processing-provision-replay"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "ftcp-converter",
-    "name": "ftcp-converter-skipped-telemetry"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "cloud-to-ftcp-converter",
-    "parent": "",
-    "name": "vsdn-outbound-responses"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-decryptor-failed-processing-replay"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "morp-internal.au.preftcp6.alert.provisioning-alert"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "command-management-service",
-    "parent": "key-rotation-service,oem-command-service,chat-command-api,chat-command-state-processor,deployment-service,aba-swap-detector",
-    "name": "fabric-normalized-resource-command-request-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-b5fa0619-9f0f-4ebf-9ed8-c157233f2683"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-bulb-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "connect-usage-collector-s3-offset"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ctde-test-provisioning-commands-output"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "mmota-connectivity-state-updates-2xp"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "feed-common,feed-common-spring",
-    "name": "flow-diagnostics-root"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "ftcp-telemetry-audit",
-    "parent": "ftcp-decryptor,ftcp-converter",
-    "name": "ftcp-telemetry-audit-results"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "ftcp-state-reporter,ftcp-command-e2e-monitor",
-    "name": "ftcp-command-monitor-state-transitions"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-total-engine-time-idle"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
     "name": "derived-idle-status"
   },
   {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "filtered-odometer"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-impact-status"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-ev-battery-percentage-remaining"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-torque-at-transmission"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "command-management-service",
-    "name": "command-state-service-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-74de9f7d-416a-4dfb-aa21-f1b2fa0518c1"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "tms-e2e-monitor,ftcp-command-responses,vsdn-migration-command-tracker,ftcp-converter,ftcp-device-readiness,aba-swap-detector",
-    "parent": "ftcp-unbatching-service,tms-e2e-monitor,ftcp-decryptor,ftcp-command-e2e-monitor",
-    "name": "ftcp-ingest-processed"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "iam-processor,iam",
-    "name": "iam-flow-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "mqtt-outbound",
-    "parent": "ftcp-command-e2e-monitor,mqtt-connectivity-monitor,cloud-to-device-encryptor",
-    "name": "vehicle-commands"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "mqtt-ingest",
-    "parent": "",
-    "name": "hivemq-raw-ftcp-telemetry-2xp"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "edge-fnv2-service,bytestream-service,edge-service",
-    "name": "bytestream-service-client-id-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "supplier-record-retry"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-aaa12565-f417-4a95-be8d-c15c0986ea70"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-v12-battery-volt"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "deployment-service",
-    "name": "device-deployment-service-internal-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ride-hailing-event"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-142d2e11-b6ba-438d-9d19-7476014c4d47"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-provisioning-au-ids-table"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "att-sms-delivery-queue"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "command-management-service-resource-command-cache-state-store-changelog"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "iam-simulator",
-    "parent": "iam-processor,account-coordinator,account-service-spring",
-    "name": "iam-resources"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-23d85bbe-0a67-4b1d-a224-d6e8a566c195"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-ingest-decrypted-raw-provision"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "tail-race",
-    "parent": "",
-    "name": "mqtt-connectivity-external-logs"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-brake-pedal-status"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "ftcp-converter",
-    "name": "ftcp-converter-abort-v2"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-binding-change-events-by-object-id-a"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-d15ad444-d102-4700-a8ef-c1a9584dce42"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "binding-change-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "command-management-service",
-    "name": "command-queue-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-1a368183-0ede-447f-9010-54e9912691ee"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-pid-plugged-in"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-ingest-decrypted-raw-provision-replay"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "derived-tire-pressure"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "command-management-service-command-delivery-outbound-command-cache-state-store-changelog"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "vehicle-inventory-actuation-abort"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "vsdn-migration-command-tracker,mqtt-message-event-router",
-    "parent": "",
-    "name": "intercepted-outbound-tcu-commands"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "telemetry-ingest-usage-collector,ftcp-converter",
-    "name": "tmc-telemetry-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-asset-crud-events-intermediate-by-serial-a"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-cfd39f44-e31e-4bcf-9bcb-2c39d97cbd6f"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "mdi-conversion-orphans"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "command-management-service",
-    "name": "vehicle-deployment-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "gnss-position"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "iam-job-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-binding-change-events-by-subject-id-a"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "archive-reader-supplier-feed"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "derived-fuel-level"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "derived-indicator-light-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-engine-service-indicator"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "account-coordinator-event-consumer-offsets-v1-KeycloakNewUserQuerier"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "flow-manager",
-    "parent": "flow-manager",
-    "name": "feed-topic-event"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "vsdn-connect",
-    "parent": "cloud-to-ftcp-converter,ftcp-raw-packager",
-    "name": "vehicle-commands-vsdn"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-provisioning-failure-ingest-envelopes-table"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "iam-processor",
-    "name": "group-asset-op"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "iam-simulator,assets-v3-cache-writer",
-    "parent": "",
-    "name": "asset-v3-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "assets-processors,assets-cache-writer",
-    "parent": "assets-processors",
-    "name": "asset-crud-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
     "name": "raw-econometer"
   },
   {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "mdi-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-ingest-processed-replay"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-asset-crud-events-by-serial-a"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-brake-torque-request"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "driving-behavior-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "edge-processor",
-    "parent": "device-connectivity-service",
-    "name": "edge-preclusion-state-transitions"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "edge-processor",
-    "parent": "edge-service",
-    "name": "edge-processor-internal-encrypted-publish-request-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "derived-driving-behavior"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "mqtt-connectivity"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-acceleration"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-asset-crud-events-intermediate-by-id-a"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-c5a89402-cb45-405a-874d-1cdf04190955"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-binding-change-events-intermediate-by-object-id-a"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ams-actuation-queue-internal-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "command-query-service",
-    "parent": "command-management-service",
-    "name": "command-query-service-queue-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-6eca4461-17e9-4ee2-9cdb-24b2db2f2036"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-raw-publish-requests"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "trigger-ivsu-request"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-door-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-door-lock-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "key-rotation-service",
-    "parent": "oem-command-service,key-rotation-gateway,chat-command-api",
-    "name": "fabric-raw-rekey-command-request-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "device-deployment-state-transition"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "command-management-service-terminal-command-queue-entry-state-store-changelog"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "sms-delivery-queue"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "command-management-service",
-    "parent": "device-connectivity-service",
-    "name": "fabric-connectivity-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "command-management-service",
-    "parent": "edge-fnv2-service",
-    "name": "mmota-connectivity-state-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "edge-service,edge-processor",
-    "name": "edge-processor-publish-request-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-decryptor-apr12-placeholder-input"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "key-rotation-gateway-request-archive"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ams-time-sensitive-queue-internal-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "key-rotation-service,oem-command-service,command-summary-service",
-    "parent": "command-management-service,chat-command-state-processor",
-    "name": "state-transition-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-asset-crud-events-intermediate-by-id-b"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "command-query-service",
-    "parent": "command-management-service",
-    "name": "command-query-service-history-crud-event-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-777f73ce-ca93-44d4-bb53-3b741ea1e396"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "chat-command-state-processor",
-    "name": "chat-command-state-update-load"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "debezium_connector_offset"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "tss-rest-integration-test"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "ftcp-adaptor-error-reporter,edge-processor,feed-common,edge-service,feed-common-spring",
-    "name": "data-validation-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-ingest-failed-decryption-provision-replay"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "vehicle-inventory-actuation"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "usage-collector-resolved-usage-set"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "derived-pid-plugged-in"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "coordinator-application-control-tap-info-store-changelog"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "supplier-feed-fetch-abort"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-traction-control-activated"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "binding-account-events-v1"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "command-management-service-command-request-state-store-changelog"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "edge-processor",
-    "parent": "tms-e2e-monitor,redeef,ftcp-command-responses,edge-service,ftcp-converter",
-    "name": "edge-processor-internal-publish-request-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-2985992a-e9f4-4b19-8f2b-5e61c2d81dad"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "command-query-service-command-queue-state-store-changelog"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-asset-crud-events-by-serial-b"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "tms-e2e-monitor,edge-fnv2-service,ftcp-raw-packager,edge-processor,feed-common,feed-common-spring",
-    "name": "raw-root-v2"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-16ad53cb-a931-4867-949e-6cfd8715b44d"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "key-rotation-service",
-    "parent": "",
-    "name": "key-rotation-pending-cloud-key-rotations-topic"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-asset-crud-events-by-vin-a"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-ingest-load-test-output"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "cvfta-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "iam-relay-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "provisioning-monitor",
-    "name": "provisioning-feed-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "fuel-consumed"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-asset-crud-events-intermediate-by-vin-b"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-5129a7ae-e179-4cff-82ee-eaf709fcc6b0"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-engine-oil-level"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "feed-common,feed-common-spring,tail-race",
-    "name": "flow-datasource-diagnostic-root"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-e7ca02ec-2165-4fb8-805f-71c39660feb1"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-cb237b1f-36e1-4aaa-9276-6a7e4ad1d7b0"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-door-latch-status"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "edge-fnv2-service,edge-service",
-    "name": "inbound-device-deployment-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-f-driver-score"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "prefnv2-preclusion-state-transitions"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-headlamp-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-malfunction-indicator-light"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "fuel-level-percentage"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "command-management-service",
-    "parent": "key-rotation-service,ftcp-state-reporter,edge-fnv2-service,edge-processor,edge-service,deployment-service,deployment-rest",
-    "name": "fabric-deployment-event-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-brake-light-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-tire-pressure"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-wheel-rotation-speed"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-0bbafa88-5264-4f7b-9ea6-738c8c47818a"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "command-query-service",
-    "name": "command-query-service-device-centric-history-global-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "command-query-service",
-    "name": "command-query-service-vehicle-centric-history-global-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "vsdn-connect-test-input"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "account-coordinator-event-consumer-offsets-v1-ClientUpdateQuerier"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "sorted-vehicle-command-history-global-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-headlight-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-engine-oil-life-remaining"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "edge-service,edge-processor",
-    "name": "edge-publish-encrypted-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "device-edge-mappings"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "command-management-service,key-rotation-service,tms-e2e-monitor,bootstrap-service,device-connectivity-service,canis-minor-common,edge-processor,feed-common,telemetry-ingest-usage-collector,feed-common-spring",
-    "name": "flow-root"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "cloud-to-ftcp-converter",
-    "parent": "command-management-service,ftcp-command-e2e-monitor",
-    "name": "vsdn-outbound-requests"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "tss-rest-requests"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "iam-purge-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "spring-test-cn",
-    "name": "spring-test-cn"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "fabric-to-telemetry-report"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "edge-fnv2-service,bytestream-service,edge-service",
-    "name": "bytestream-service-internal-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "vsdn-migration-command-tracker",
-    "parent": "ftcp-command-relay",
-    "name": "encrypted-outbound-ftcp-commands"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "connect-usage-collector-s3-status"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "telemetry-ingest-usage-collector",
-    "name": "telemetry-ingest-billable-accounts-table"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-unhandled-metrics"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-asset-crud-events-intermediate-by-vin-a"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-fault"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "gnss-heading"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "provisioning-audit-service",
-    "parent": "canis-minor-common,aba-swap-detector",
-    "name": "provisioning-audit"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "command-management-service",
-    "name": "fabric-deployment-requests"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
     "name": "edge-processor-encrypted-publish-request-ingest"
   },
   {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "ftcp-decryptor",
-    "name": "ftcp-decryptor-failed-processing"
+    "nodeType": "TOPIC",
+    "child": "key-rotation-service",
+    "parent": "key-rotation-gateway,oem-command-service,chat-command-api",
+    "name": "fabric-raw-rekey-command-request-ingest"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
-    "parent": "",
-    "name": "geofence-definitions-v3"
+    "parent": "command-query-service",
+    "name": "command-query-service-device-centric-history-global-updates"
   },
   {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "morp-internal.ford.fnv2.alert.provisioning-alert"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "temporary-dead-end-for-command-topology"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "coordinator",
-    "name": "feed-container-placement-config"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
     "name": "derived-idle-duration-event"
   },
   {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "bad-odometer"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-tire-pressure-level"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "asset-group"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "asset-account-membership-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-ingest-telemetry-replay"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "account-coordinator-event-consumer-offsets-v1-UserUpdateQuerier"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "command-query-service-command-history-state-store-changelog"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "edge-service",
-    "name": "device-connectivity-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "iam-processor",
-    "name": "group-account"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "provisioning-feed-ingest-replay"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-ingest-processed-provision"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-seat-occupancy-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-ingest-failed-decryption-provision"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "account-coordinator",
-    "name": "account-coordinator-states-v1"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-ingest-2xp-archiver-load-test"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-ingest-processed-provision-replay"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "connectivity-events-edge-processor-internal"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "fence-matches"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-asset-crud-events-intermediate-by-serial-b"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-seat-belt-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "vehicle-documents"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-c52c829f-aa33-47e4-a9e7-77b611a33bd4"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "cvfta-conversion-parse-failed"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ride-hailing-aggregate-event"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-accelerator-pedal-position"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "feed-common,assets-processors,coordinator,feed-common-spring",
-    "name": "asset-change-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-binding-change-events-by-subject-id-b"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-543365cc-c5a4-45b3-ba3c-937dae0c2986"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "module-registration-archive-inspect-replay"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "tail-race",
-    "parent": "vsdn-connect",
-    "name": "vsdn-bridge-external-logs"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-655a38d3-5c5c-448c-bb70-3a2b8df29feb"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "hivemq-raw-catch-all-2xp"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "geofence-crud-ops"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-10e185e8-a2a3-4d5e-b8d0-8fa7b553fbad"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "derived-malfunction-indicator-light-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-window-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "vehicle-api-command-request"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "ftcp-unbatching-service",
-    "name": "ftcp-unbatching-service-abort"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ride-hailing-event-replay"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "connectivity-state-transitions"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "supplier-record"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-fcd2e659-3481-44c6-a1a7-d75aae21e5a1"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "command-management-service",
-    "parent": "feed-common,assets-processors,coordinator,feed-common-spring",
-    "name": "device-binding-change-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-external-publish-requests"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "fencing-flow-output"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "hivemq-raw-ftcp-provisioning-2xp"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "normalized-location"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-54caff10-713a-4e15-9235-6ff7b98a0b1d"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-ambient-temperature"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "device-connectivity-service",
-    "name": "connectivity-subscriptions"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "feeder,coordinator,flow-manager",
-    "name": "feed-flow-info"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "assets-processors",
-    "parent": "",
-    "name": "dbz-device-binding-change-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-46283761-2060-4c8f-8a60-4b3c97d2583b"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-decryptor-failed-processing-provision"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "proto-group-asset"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "internal-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-indicator-light-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "chat-command-api-processed-commands"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-abs-activated"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "supplier-feed-fetch-retry"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "command-management-service",
-    "parent": "",
-    "name": "command-administration-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "derived-ignition-status"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-78db9a64-ea90-421e-b925-19483f7e5dc9"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-3c751680-44bb-45b5-b6e8-d3b469e8b246"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "edge-processor",
-    "name": "cms-command-request-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-0b6d0bf1-3dc6-4d37-a957-a5bbda3ac579"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-684b9dd6-bf73-4db4-8d26-883519ab15cb"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-total-engine-time"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ride-hailing-command"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "iam-roles"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-gnss-dop"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "group-asset-batch"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "intermediate-pid-plugged-in"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-421cf4c3-6584-48a6-a030-b6dff4b0617d"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "debezium_connector_config"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "redeef",
-    "name": "flow-feed-au-static-testflow"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "chat-command-api",
-    "name": "speed"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "supplier-feed-fetch"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "fabric-raw-resource-command-request-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "flow-manager",
-    "name": "feed-topic-info"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "edge-processor",
-    "parent": "edge-service,redeef",
-    "name": "edge-publish-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "edge-fnv2-service",
-    "name": "flow-raw-root"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "normalized-device-deployment-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "ftcp-device-readiness",
-    "parent": "ftcp-decryptor",
-    "name": "ftcp-connectivity-lost-connection"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-6e156cec-7409-4eec-819c-ccb11cf517e4"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "command-management-service",
-    "parent": "",
-    "name": "intermediate-outbound-command-triggers"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ride-hailing-command-process"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "chat-command-state-processor,chat-command-api",
-    "name": "command-state-processor-initial-command-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-test-data"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-ingest-failed-decryption-replay"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-f-service-required"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-e7cbc303-8e45-499c-98a7-863c07b31dbb"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "edge-processor",
-    "parent": "",
-    "name": "edge-processor-internal-command-request-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-windshield-wiper-speed"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "edge-processor-publish-request-envelope-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "morp-internal.ford.preftcp6.command-response.provisioning-data-request-command-response"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "iam-processor,account-coordinator,account-service-spring",
-    "name": "iam-change-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "trigger-ivsu-request-abort"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "command-management-service-device-connectivity-state-store-changelog"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-parking-break-warning-light"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-steering-wheel-angle"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "command-management-service",
-    "parent": "ftcp-device-readiness,chat-command-api,edge-processor",
-    "name": "preclusion-state-transitions"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "merged-location"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "edge-service",
-    "name": "edge-connectivity-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-2ff13a1a-e6a6-48a6-992d-286b5bfaf83e"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ctfc-requests-test-input"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ctfc-responses-test-input"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "edge-fnv2-service",
-    "parent": "command-management-service",
-    "name": "outbound-fnv2-mmota-commands"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "fabric-wakeup-event-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "ftcp-adaptor-error-reporter,tms-e2e-monitor",
-    "name": "ftcp-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-driving-behavior"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "derived-indicator-light-reliable"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "ftcp-decryptor",
-    "name": "ftcp-ingest-failed-decryption"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "usage-collector-account-based-usage"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "command-management-service,feed-common,feed-common-spring",
-    "name": "asset-state-transitions"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "key-rotation-service",
-    "parent": "",
-    "name": "key-rotation-state-update-info-internal-topic"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "flow-6f7fb36f-15d9-4ec2-a81f-abb88931eccd"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "cloud-to-device-encryptor",
-    "parent": "ftcp-raw-packager,cloud-to-ftcp-converter,ftcp-command-e2e-monitor",
-    "name": "ftcp-raw-cloud-to-device"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "deployment-service",
-    "name": "device-deployment-initial-device-state"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "deployment-service",
-    "parent": "",
-    "name": "deployment-request-by-bundle"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "connect-usage-collector-s3-config"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "telemetry-ingest"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "deployment-service",
-    "parent": "command-management-service",
-    "name": "fabric-deployment-events"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "device-connectivity-service",
-    "parent": "edge-fnv2-service,edge-service,ftcp-device-readiness,edge-processor",
-    "name": "connectivity-state-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "road-snapper-vehicles"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "flow-manager,coordinator",
-    "name": "feed-tap-info"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "raw-fuel-level"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-binding-change-events-intermediate-by-object-id-b"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "kms-import-keys-abort"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "edge-fnv2-service",
-    "parent": "command-management-service,edge-fnv2-service",
-    "name": "outbound-command-rejections"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "flow-manager",
-    "parent": "",
-    "name": "feed-tap-event"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
-    "child": "",
-    "parent": "",
-    "name": "ftcp-asset-crud-events-by-vin-b"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
     "name": "raw-gear-position"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
-    "name": "ftcp-binding-change-events-by-object-id-b"
+    "name": "fencing-flow-output"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
-    "name": "iam-sink-events"
+    "name": "telemetry-ingest"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "edge-service,edge-fnv2-service",
+    "name": "inbound-device-deployment-events"
+  },
+  {
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
-    "name": "flow-ddc54d31-15e1-45d7-827c-fff0e92a8a05"
+    "name": "usage-collector-resolved-usage-set"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
-    "name": "diverted-econometer-envelopes"
+    "name": "ctfc-responses-test-input"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "chat-command-api-processed-commands"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ride-hailing-command-process"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-fault"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-asset-crud-events-intermediate-by-serial-a"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "trigger-ivsu-request"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "account-coordinator-event-consumer-offsets-v1-ClientUpdateQuerier"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "fabric-to-telemetry-report"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "edge-service",
+    "name": "device-connectivity-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-driving-behavior"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "provisioning-audit-service",
+    "parent": "canis-minor-common,aba-swap-detector",
+    "name": "provisioning-audit"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-external-publish-requests"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "debezium_connector_offset"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "account-coordinator-event-consumer-offsets-v1-UserUpdateQuerier"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "command-management-service",
+    "parent": "device-connectivity-service",
+    "name": "fabric-connectivity-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "command-management-service-command-delivery-outbound-command-cache-state-store-changelog"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-ingest-processed-replay"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "mdi-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-fuel-level"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-6e156cec-7409-4eec-819c-ccb11cf517e4"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "binding-change-events-trial"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-engine-oil-life-remaining"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "tss-rest-requests"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "device-deployment-state-transition"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-asset-crud-events-intermediate-by-serial-b"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "device-edge-mappings"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-ingest-failed-decryption-provision"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-parking-break-warning-light"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "gnss-position"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "command-query-service-command-history-state-store-changelog"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-ev-battery-percentage-remaining"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "edge-service,edge-fnv2-service",
+    "name": "outbound-device-deployments"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-window-state"
+  },
+  {
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
     "name": "flow-45d12903-4fa9-42f3-a9ea-82b57fd01c16"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
-    "name": "raw-alarm-state"
+    "name": "raw-gnss-dop"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
-    "name": "flow-f4981c24-810d-4a74-b672-c578d47ba4f6"
+    "name": "connect-usage-collector-s3-status"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-provisioning-au-ids-table"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "supplier-record"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-aa9d7ac9-9675-4a6c-83cc-01c9aa2e90d9"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "provisioning-feed-ingest-replay"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "edge-processor",
+    "parent": "redeef,edge-service",
+    "name": "edge-publish-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-6f7fb36f-15d9-4ec2-a81f-abb88931eccd"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-gnss-speed"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-raw-publish-requests"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "module-registration-archive-inspect-replay"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "account-coordinator-event-consumer-offsets-v1-KeycloakNewUserQuerier"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-tire-pressure-level"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-c52c829f-aa33-47e4-a9e7-77b611a33bd4"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-total-engine-time"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-door-lock-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-asset-crud-events-intermediate-by-id-a"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "command-management-service-terminal-command-queue-entry-state-store-changelog"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-421cf4c3-6584-48a6-a030-b6dff4b0617d"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-converter-abort"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "flow-manager",
+    "name": "feed-topic-info"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "ftcp-state-reporter",
+    "parent": "cloud-to-ftcp-converter,mqtt-outbound,ftcp-command-e2e-monitor,ftcp-converter,ftcp-command-responses,vsdn-connect,cloud-to-device-encryptor",
+    "name": "ftcp-state-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-142d2e11-b6ba-438d-9d19-7476014c4d47"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-ev-battery-performance"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "telemetry-ingest-usage-collector",
+    "name": "telemetry-ingest-billable-accounts-table"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "geofence-crud-ops"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ride-hailing-event"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "edge-processor,edge-service",
+    "name": "edge-publish-encrypted-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "flow-manager",
+    "parent": "flow-manager",
+    "name": "feed-topic-event"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-impact-status"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-ingest-decrypted-raw-replay"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-54caff10-713a-4e15-9235-6ff7b98a0b1d"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-test-data"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-decryptor-failed-processing-provision-replay"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "cloud-to-ftcp-converter",
+    "parent": "",
+    "name": "vsdn-outbound-responses"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "mqtt-ingest-testing-2xp"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-543365cc-c5a4-45b3-ba3c-937dae0c2986"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-e7cbc303-8e45-499c-98a7-863c07b31dbb"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "ftcp-device-readiness",
+    "name": "ftcp-connectivity-aborted-messages"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "derived-driving-behavior"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "gnss-heading"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-decryptor-failed-processing-replay"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "derived-pid-plugged-in"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "flow-manager",
+    "parent": "",
+    "name": "feed-tap-event"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "filtered-odometer"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-acceleration"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "command-management-service",
+    "parent": "edge-processor,edge-fnv2-service,deployment-rest,ftcp-state-reporter,edge-service,deployment-service,key-rotation-service",
+    "name": "fabric-deployment-event-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "asset-account-membership-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-provisioning-failure-ingest-envelopes-table"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "ftcp-unbatching-service",
+    "parent": "ftcp-decryptor,tms-e2e-monitor",
+    "name": "ftcp-batch-alerts"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-binding-change-events-intermediate-by-object-id-b"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "command-management-service-preclusion-state-store-changelog"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-accelerator-pedal-position"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-46283761-2060-4c8f-8a60-4b3c97d2583b"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-0b6d0bf1-3dc6-4d37-a957-a5bbda3ac579"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-binding-change-events-intermediate-by-object-id-a"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-ingest-decrypted-raw-provision-replay"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "edge-processor",
+    "parent": "edge-service",
+    "name": "edge-processor-internal-encrypted-publish-request-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-asset-crud-events-intermediate-by-vin-b"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "iam-simulator,assets-v3-cache-writer",
+    "parent": "",
+    "name": "asset-v3-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "device-connectivity-service-device-connectivity-historical-connectivity-store-1-changelog"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-asset-crud-events-intermediate-by-vin-a"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "command-management-service-resource-command-cache-state-store-changelog"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "debezium_connector_status"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "archive-reader-supplier-feed"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ctde-test-provisioning-commands-output"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "iam-job-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "command-management-service",
+    "parent": "assets-processors,feed-common,coordinator,feed-common-spring",
+    "name": "device-binding-change-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-5129a7ae-e179-4cff-82ee-eaf709fcc6b0"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "command-management-service",
+    "parent": "",
+    "name": "cms-internal-command-delivery-requests"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "mqtt-connectivity"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "sms-delivery-queue"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "diverted-econometer-envelopes"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "derived-ignition-status"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-ingest-processed-provision"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-windshield-wiper-speed"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "command-management-service-device-deployment-queue-state-store-changelog"
+  },
+  {
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
     "name": "edge-processor-encrypted-publish-request-envelope-ingest"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
+    "child": "edge-fnv2-service",
+    "parent": "command-management-service",
+    "name": "outbound-fnv2-mmota-commands"
+  },
+  {
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
-    "name": "ftcp-converter-usage-table"
+    "name": "flow-655a38d3-5c5c-448c-bb70-3a2b8df29feb"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
-    "name": "ams-vehicle-actuation-history-internal-updates"
+    "name": "raw-pid-plugged-in"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
-    "name": "morp-internal.ford.preftcp6.alert.provisioning-alert"
+    "name": "iam-sink-events"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
-    "name": "key-rotation-requests-input-topic"
+    "name": "connectivity-state-transitions"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
-    "name": "raw-interior-temperature"
+    "name": "raw-v12-battery-volt"
   },
   {
-    "nodeType": "NodeType.TOPIC",
-    "child": "ftcp-state-reporter",
-    "parent": "ftcp-command-e2e-monitor,ftcp-command-responses,cloud-to-device-encryptor,vsdn-connect,cloud-to-ftcp-converter,ftcp-converter,mqtt-outbound",
-    "name": "ftcp-state-updates"
-  },
-  {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "",
-    "name": "kafka-monitor-topic"
+    "name": "internal-events"
   },
   {
-    "nodeType": "NodeType.TOPIC",
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "derived-fuel-level"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-steering-wheel-angle"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "temporary-dead-end-for-command-topology"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-bulb-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "feed-common,feed-common-spring,tail-race",
+    "name": "flow-datasource-diagnostic-root"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-16ad53cb-a931-4867-949e-6cfd8715b44d"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "flow-manager,coordinator",
+    "name": "feed-tap-info"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-e7ca02ec-2165-4fb8-805f-71c39660feb1"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "command-management-service-command-request-state-store-changelog"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "command-query-service",
+    "parent": "command-management-service",
+    "name": "command-query-service-history-crud-event-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "key-rotation-service",
+    "parent": "",
+    "name": "key-rotation-pending-cloud-key-rotations-topic"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "bytestream-service,edge-service,edge-fnv2-service",
+    "name": "bytestream-service-internal-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "supplier-feed-fetch-abort"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-torque-at-transmission"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-6eca4461-17e9-4ee2-9cdb-24b2db2f2036"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "command-management-service",
+    "name": "vehicle-deployment-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "connect-usage-collector-s3-config"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "fence-matches"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-10e185e8-a2a3-4d5e-b8d0-8fa7b553fbad"
+  },
+  {
+    "nodeType": "TOPIC",
     "child": "",
     "parent": "iam-processor",
     "name": "group-asset"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "provisioning-audit,fabric-normalized-resource-command-request-ingest",
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "iam-processor",
+    "name": "group-asset-op"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "fuel-level-percentage"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "deployment-service",
+    "parent": "command-management-service",
+    "name": "fabric-deployment-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "connect-usage-collector-s3-offset"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ams-time-sensitive-queue-internal-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "vehicle-inventory-actuation-abort"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-brake-pedal-status"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "chat-command-state-processor",
+    "name": "chat-command-state-update-load"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "vehicle-inventory-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-3de4cb8c-3a16-4acd-b325-f648aedb98aa"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "kms-import-keys-abort"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-0bbafa88-5264-4f7b-9ea6-738c8c47818a"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-1a368183-0ede-447f-9010-54e9912691ee"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "asset-group"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "key-rotation-requests-input-topic"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-binding-change-events-by-subject-id-b"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "edge-processor,edge-service",
+    "name": "edge-processor-publish-request-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "command-query-service",
+    "parent": "command-management-service",
+    "name": "command-query-service-queue-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "command-management-service-device-connectivity-state-store-changelog"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "tss-rest-integration-test"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "morp-internal.ford.preftcp6.command-response.provisioning-data-request-command-response"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "deployment-service",
+    "name": "device-deployment-initial-device-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "connectivity-events-edge-processor-internal"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "ftcp-decryptor,ftcp-raw-packager",
+    "parent": "ftcp-decryptor",
+    "name": "ftcp-ingest-decrypted-raw"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "supplier-feed-fetch-retry"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-f4981c24-810d-4a74-b672-c578d47ba4f6"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-23d85bbe-0a67-4b1d-a224-d6e8a566c195"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "feed-common,feed-common-spring",
+    "name": "flow-diagnostics-root"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "trigger-ivsu-request-abort"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-alarm-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "iam-relay-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "coordinator",
+    "name": "feed-container-placement-config"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "assets-processors,feed-common,coordinator,feed-common-spring",
+    "name": "asset-change-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "vsdn-connect",
+    "parent": "ftcp-raw-packager,cloud-to-ftcp-converter",
+    "name": "vehicle-commands-vsdn"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "vehicle-id-stream"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "normalized-location"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "ftcp-decryptor",
+    "name": "ftcp-decryptor-failed-processing"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "command-management-service",
+    "name": "command-state-service-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "cloud-to-device-encryptor",
+    "name": "provisioning-vehicle-commands"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-74de9f7d-416a-4dfb-aa21-f1b2fa0518c1"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "device-connectivity-service",
+    "parent": "edge-service,edge-processor,ftcp-device-readiness,edge-fnv2-service",
+    "name": "connectivity-state-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "binding-account-events-v1"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "command-management-service",
+    "parent": "",
+    "name": "command-administration-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-binding-change-events-by-subject-id-a"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "ftcp-unbatching-service",
+    "name": "ftcp-unbatching-service-abort"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "tail-race",
+    "parent": "",
+    "name": "mqtt-connectivity-external-logs"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "edge-processor-publish-request-envelope-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "asset-pid-binding-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "fabric-wakeup-event-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "cvfta-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-decryptor-apr12-placeholder-input"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-engine-speed"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "ftcp-state-reporter,ftcp-command-e2e-monitor",
+    "name": "ftcp-command-monitor-state-transitions"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "supplier-record-acknowledgement"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-asset-crud-events-by-vin-a"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-f-service-required"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "derived-tire-pressure"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-brake-light-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-ingest-load-test-output"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "coordinator-application-control-tap-info-store-changelog"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "edge-processor",
+    "parent": "",
+    "name": "edge-processor-internal-command-request-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ctfc-requests-test-input"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-interior-temperature"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-engine-oil-level"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "derived-indicator-light-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "proto-group-asset"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-seat-occupancy-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "assets-processors",
+    "parent": "",
+    "name": "dbz-device-binding-change-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "cvfta-conversion-decryption-failed"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "syncp-archive-raw"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "provisioning-monitor",
+    "name": "provisioning-feed-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-wheel-rotation-speed"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-ingest-decrypted-raw-provision"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "vsdn-connect-test-input"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-asset-crud-events-by-serial-a"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "mqtt-outbound",
+    "parent": "mqtt-connectivity-monitor,ftcp-command-e2e-monitor,cloud-to-device-encryptor",
+    "name": "vehicle-commands"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "ftcp-decryptor,ftcp-telemetry-audit,tms-e2e-monitor",
+    "parent": "ftcp-ingest,ftcp-command-e2e-monitor,mqtt-ingest,provisioning-monitor",
+    "name": "ftcp-ingest-2xp"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-14e58f0e-268a-4caf-bb70-32e08755d79f"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "feed-common,command-management-service,feed-common-spring",
+    "name": "asset-state-transitions"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "snapped-location"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "kafka-monitor-topic"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-seat-belt-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-traction-control-activated"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "iam-processor",
+    "name": "iam-memberships"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "normalized-device-deployment-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "vsdn-migration-command-tracker",
+    "parent": "ftcp-command-relay",
+    "name": "encrypted-outbound-ftcp-commands"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-unhandled-metrics"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "bytestream-service,edge-service,edge-fnv2-service",
+    "name": "bytestream-service-client-id-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-fcd2e659-3481-44c6-a1a7-d75aae21e5a1"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "att-sms-delivery-queue"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "vsdn-migration-command-tracker,mqtt-message-event-router",
+    "parent": "",
+    "name": "intercepted-outbound-tcu-commands"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "mqtt-connectivity-monitor,mqtt-ingest",
+    "parent": "",
+    "name": "hivemq-raw-ftcp-telemetry-2xp-high-volume"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "edge-processor,feed-common-spring,key-rotation-service,bootstrap-service,telemetry-ingest-usage-collector,feed-common,command-management-service,device-connectivity-service,tms-e2e-monitor,canis-minor-common",
+    "name": "flow-root"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "command-management-service",
+    "name": "command-queue-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-headlamp-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-ingest-2xp-archiver-load-test"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-cfd39f44-e31e-4bcf-9bcb-2c39d97cbd6f"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-aaa12565-f417-4a95-be8d-c15c0986ea70"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-abs-activated"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "sorted-vehicle-command-history-global-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "command-management-service,edge-service",
+    "name": "fabric-outbound-deployments"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "mmota-connectivity-state-updates-2xp"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-wheel-brake-torque"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-decryptor-failed-processing-provision"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-ambient-temperature"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "command-management-service",
+    "parent": "edge-fnv2-service",
+    "name": "mmota-connectivity-state-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "deployment-service",
+    "parent": "",
+    "name": "deployment-request-by-bundle"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-ingest-failed-decryption-replay"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-ingest-processed-provision-replay"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "command-management-service",
+    "parent": "edge-processor,ftcp-device-readiness,chat-command-api",
+    "name": "preclusion-state-transitions"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "edge-processor",
+    "parent": "device-connectivity-service",
+    "name": "edge-preclusion-state-transitions"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-06e92f3f-c708-4e70-bbb0-24f45637d38f"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "cloud-to-device-encryptor",
+    "parent": "ftcp-command-e2e-monitor,ftcp-raw-packager,cloud-to-ftcp-converter",
+    "name": "ftcp-raw-cloud-to-device"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "oem-command-service,key-rotation-service,command-summary-service",
+    "parent": "chat-command-state-processor,command-management-service",
+    "name": "state-transition-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "mqtt-ingest",
+    "parent": "",
+    "name": "hivemq-raw-ftcp-telemetry-2xp"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-684b9dd6-bf73-4db4-8d26-883519ab15cb"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "key-rotation-service",
+    "parent": "",
+    "name": "key-rotation-state-update-info-internal-topic"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-2985992a-e9f4-4b19-8f2b-5e61c2d81dad"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-hood-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "morp-internal.au.preftcp6.alert.provisioning-alert"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "ftcp-converter",
+    "name": "ftcp-converter-abort-v2"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "chat-command-api",
+    "name": "speed"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "ftcp-decryptor,ftcp-adaptor-error-reporter",
+    "parent": "ftcp-command-responses,ftcp-device-readiness,ftcp-converter",
+    "name": "ftcp-adaptor-errors"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "edge-processor,feed-common-spring,ftcp-adaptor-error-reporter,edge-service,feed-common",
+    "name": "data-validation-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "derived-malfunction-indicator-light-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "cvfta-conversion-parse-failed"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-door-latch-status"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "usage-collector-account-based-usage"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-3c751680-44bb-45b5-b6e8-d3b469e8b246"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ride-hailing-command"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "assets-processors,assets-cache-writer",
+    "parent": "assets-processors",
+    "name": "asset-crud-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "device-deployment-requests"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ams-actuation-queue-internal-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-asset-crud-events-intermediate-by-id-b"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "morp-internal.au.fnv2.alert.provisioning-alert"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "vehicle-api-command-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "edge-processor",
+    "parent": "redeef,edge-service,ftcp-converter,ftcp-command-responses,tms-e2e-monitor",
+    "name": "edge-processor-internal-publish-request-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-ingest-telemetry-replay"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ams-device-actuation-history-internal-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "edge-processor,ftcp-raw-packager,feed-common-spring,edge-fnv2-service,feed-common,tms-e2e-monitor",
+    "name": "raw-root-v2"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "flow-manager,feeder,coordinator",
+    "name": "feed-flow-info"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "bad-odometer"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "supplier-record-retry"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "command-management-service",
+    "name": "fabric-deployment-requests"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "iam-processor,telemetry-ingest-usage-collector",
+    "name": "iam-permissions"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "ftcp-device-readiness",
+    "parent": "ftcp-decryptor",
+    "name": "ftcp-connectivity-lost-connection"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "ftcp-converter",
+    "name": "ftcp-converter-skipped-telemetry"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "mdi-conversion-orphans"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "edge-fnv2-service",
+    "name": "flow-raw-root"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "iam-processor",
+    "name": "group-account"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-brake-torque-request"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "binding-change-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "account-coordinator",
+    "name": "account-coordinator-states-v1"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "command-query-service-command-queue-state-store-changelog"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "usage-v2"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "prefnv2-preclusion-state-transitions"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ams-vehicle-actuation-history-internal-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "ftcp-telemetry-audit",
+    "parent": "ftcp-decryptor,ftcp-converter",
+    "name": "ftcp-telemetry-audit-results"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-78db9a64-ea90-421e-b925-19483f7e5dc9"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "diverted-far-future-envelopes"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-total-engine-time-idle"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-f-driver-score"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-d15ad444-d102-4700-a8ef-c1a9584dce42"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "account-coordinator-event-consumer-offsets-v1-AccountUpdateQuerier"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "iam-processor,account-service-spring,account-coordinator",
+    "name": "iam-change-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "fuel-consumed"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-c5a89402-cb45-405a-874d-1cdf04190955"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-binding-change-events-by-object-id-b"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "command-management-service",
+    "parent": "aba-swap-detector,chat-command-state-processor,deployment-service,oem-command-service,chat-command-api,key-rotation-service",
+    "name": "fabric-normalized-resource-command-request-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-indicator-light-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "command-query-service",
+    "name": "command-query-service-vehicle-centric-history-global-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-ingest-failed-decryption-provision-replay"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "vehicle-api-command-request"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "key-rotation-gateway-request-archive"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ride-hailing-event-replay"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "telemetry-ingest-usage-collector,ftcp-converter",
+    "name": "tmc-telemetry-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "derived-indicator-light-reliable"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "cloud-to-ftcp-converter",
+    "parent": "ftcp-command-e2e-monitor,command-management-service",
+    "name": "vsdn-outbound-requests"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "deployment-service",
+    "name": "device-deployment-service-internal-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "vsdn-integration-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "tail-race",
+    "parent": "vsdn-connect",
+    "name": "vsdn-bridge-external-logs"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "morp-internal.ford.fnv2.alert.provisioning-alert"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "driving-behavior-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "fence-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "vehicle-documents"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-b5fa0619-9f0f-4ebf-9ed8-c157233f2683"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-tire-pressure"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "fabric-raw-resource-command-request-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-cb237b1f-36e1-4aaa-9276-6a7e4ad1d7b0"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "iam-roles"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "road-snapper-vehicles"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "geofence-definitions-v3"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "deployment-service",
+    "parent": "",
+    "name": "deployment-service-internal-cancellation-requests"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "iam-processor,iam",
+    "name": "iam-flow-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "hivemq-raw-catch-all-2xp"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ride-hailing-vehicle-location-updated"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "morp-internal.ford.preftcp6.alert.provisioning-alert"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "hivemq-raw-ftcp-provisioning-2xp"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "edge-processor",
+    "name": "cms-command-request-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "deployment-service-internal-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "iam-purge-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "command-management-service",
+    "parent": "",
+    "name": "intermediate-outbound-command-triggers"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "spring-test-cn",
+    "name": "spring-test-cn"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "device-connectivity-service",
+    "name": "connectivity-subscriptions"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "iam-audit-events"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-777f73ce-ca93-44d4-bb53-3b741ea1e396"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "ftcp-command-responses",
+    "name": "command-responses-abort-topic"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "vehicle-inventory-actuation"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "group-asset-batch"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "fabric-asset-group"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-asset-crud-events-by-serial-b"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ride-hailing-routing-event"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-asset-crud-events-by-vin-b"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-engine-service-indicator"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "iam-simulator",
+    "parent": "iam-processor,account-service-spring,account-coordinator",
+    "name": "iam-resources"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-converter-usage-table"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-malfunction-indicator-light"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "deployment-service",
+    "name": "deployment-failed-matchers"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "edge-fnv2-service",
+    "parent": "command-management-service,edge-fnv2-service",
+    "name": "outbound-command-rejections"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "deployment-service",
+    "name": "device-deployment-state-internal"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "sorted-device-command-history-global-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "ftcp-decryptor",
+    "name": "ftcp-ingest-failed-decryption"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "command-management-service-command-queue-entry-state-store-changelog"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ride-hailing-aggregate-event"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "redeef",
+    "name": "flow-feed-au-static-testflow"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "tms-e2e-monitor,ftcp-adaptor-error-reporter",
+    "name": "ftcp-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "chat-command-state-processor,chat-command-api",
+    "name": "command-state-processor-initial-command-ingest"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "merged-location"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-ddc54d31-15e1-45d7-827c-fff0e92a8a05"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-headlight-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-ignition-status"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "bytestream-service,edge-service,edge-fnv2-service",
+    "name": "bytestream-service-device-id-updates"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "supplier-feed-fetch"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "ftcp-binding-change-events-by-object-id-a"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "flow-2ff13a1a-e6a6-48a6-992d-286b5bfaf83e"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "intermediate-pid-plugged-in"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "raw-door-state"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "vsdn-migration-command-tracker,aba-swap-detector,ftcp-converter,ftcp-command-responses,tms-e2e-monitor,ftcp-device-readiness",
+    "parent": "ftcp-decryptor,ftcp-unbatching-service,tms-e2e-monitor,ftcp-command-e2e-monitor",
+    "name": "ftcp-ingest-processed"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "debezium_connector_config"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "",
+    "name": "kms-import-keys"
+  },
+  {
+    "nodeType": "TOPIC",
+    "child": "",
+    "parent": "edge-service",
+    "name": "edge-connectivity-events"
+  },
+  {
+    "nodeType": "SERVICE",
+    "child": "fabric-normalized-resource-command-request-ingest,provisioning-audit",
     "parent": "ftcp-ingest-processed",
     "name": "aba-swap-detector"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "iam-resources,iam-change-events,account-coordinator-states-v1",
+    "nodeType": "SERVICE",
+    "child": "iam-change-events,iam-resources,account-coordinator-states-v1",
     "parent": "",
     "name": "account-coordinator"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "bytestream-service-client-id-updates,bytestream-service-device-id-updates,bytestream-service-internal-events",
+    "nodeType": "SERVICE",
+    "child": "bytestream-service-device-id-updates,bytestream-service-internal-events,bytestream-service-client-id-updates",
     "parent": "",
     "name": "bytestream-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "provisioning-audit,flow-root",
     "parent": "",
     "name": "canis-minor-common"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "provisioning-vehicle-commands,vehicle-commands,ftcp-state-updates",
+    "nodeType": "SERVICE",
+    "child": "vehicle-commands,provisioning-vehicle-commands,ftcp-state-updates",
     "parent": "ftcp-raw-cloud-to-device",
     "name": "cloud-to-device-encryptor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "vehicle-commands-vsdn,ftcp-state-updates,ftcp-raw-cloud-to-device",
-    "parent": "vsdn-outbound-responses,vsdn-outbound-requests",
+    "nodeType": "SERVICE",
+    "child": "vehicle-commands-vsdn,ftcp-raw-cloud-to-device,ftcp-state-updates",
+    "parent": "vsdn-outbound-requests,vsdn-outbound-responses",
     "name": "cloud-to-ftcp-converter"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "command-destination-whitelist-config"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "command-query-service-queue-updates,command-queue-updates,fabric-outbound-deployments,state-transition-updates,command-state-service-updates,asset-state-transitions,vsdn-outbound-requests,fabric-deployment-events,outbound-command-rejections,vehicle-deployment-events,command-query-service-history-crud-event-ingest,fabric-deployment-requests,outbound-fnv2-mmota-commands,flow-root",
-    "parent": "fabric-deployment-event-ingest,fabric-connectivity-events,intermediate-outbound-command-triggers,preclusion-state-transitions,device-binding-change-events,cms-internal-command-delivery-requests,mmota-connectivity-state-updates,command-administration-events,fabric-normalized-resource-command-request-ingest",
+    "nodeType": "SERVICE",
+    "child": "vehicle-deployment-events,fabric-outbound-deployments,command-query-service-queue-updates,outbound-fnv2-mmota-commands,asset-state-transitions,command-query-service-history-crud-event-ingest,fabric-deployment-requests,state-transition-updates,vsdn-outbound-requests,fabric-deployment-events,flow-root,command-queue-updates,outbound-command-rejections,command-state-service-updates",
+    "parent": "mmota-connectivity-state-updates,command-administration-events,fabric-deployment-event-ingest,device-binding-change-events,cms-internal-command-delivery-requests,fabric-connectivity-events,fabric-normalized-resource-command-request-ingest,preclusion-state-transitions,intermediate-outbound-command-triggers",
     "name": "command-management-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "command-query-service-vehicle-centric-history-global-updates,command-query-service-device-centric-history-global-updates",
-    "parent": "command-query-service-queue-updates,command-query-service-history-crud-event-ingest",
+    "nodeType": "SERVICE",
+    "child": "command-query-service-device-centric-history-global-updates,command-query-service-vehicle-centric-history-global-updates",
+    "parent": "command-query-service-history-crud-event-ingest,command-query-service-queue-updates",
     "name": "command-query-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "connectivity-provider-common"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "cv-availability-monitor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "cv-common"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "fabric-deployment-event-ingest",
     "parent": "",
     "name": "deployment-rest"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "fabric-connectivity-events,connectivity-subscriptions,flow-root,edge-preclusion-state-transitions",
+    "nodeType": "SERVICE",
+    "child": "connectivity-subscriptions,fabric-connectivity-events,edge-preclusion-state-transitions,flow-root",
     "parent": "connectivity-state-updates",
     "name": "device-connectivity-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "fabric-common"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "flow-datasource-diagnostic-root,data-validation-events,raw-root-v2,asset-state-transitions,device-binding-change-events,flow-diagnostics-root,flow-root,asset-change-events",
+    "nodeType": "SERVICE",
+    "child": "asset-state-transitions,device-binding-change-events,data-validation-events,asset-change-events,flow-root,flow-diagnostics-root,raw-root-v2,flow-datasource-diagnostic-root",
     "parent": "",
     "name": "feed-common"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "ftcp-state-updates,ftcp-converter-abort-v2,ftcp-converter-skipped-telemetry,tmc-telemetry-ingest,edge-processor-internal-publish-request-ingest,ftcp-adaptor-errors,ftcp-telemetry-audit-results",
+    "nodeType": "SERVICE",
+    "child": "ftcp-adaptor-errors,ftcp-telemetry-audit-results,ftcp-converter-abort-v2,ftcp-converter-skipped-telemetry,ftcp-state-updates,tmc-telemetry-ingest,edge-processor-internal-publish-request-ingest",
     "parent": "ftcp-ingest-processed",
     "name": "ftcp-converter"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "ftcp-decryptor-failed-processing,ftcp-ingest-failed-decryption,ftcp-batch-alerts,ftcp-ingest-decrypted-raw,ftcp-connectivity-lost-connection,ftcp-ingest-processed,ftcp-telemetry-audit-results",
+    "nodeType": "SERVICE",
+    "child": "ftcp-ingest-decrypted-raw,ftcp-ingest-failed-decryption,ftcp-telemetry-audit-results,ftcp-connectivity-lost-connection,ftcp-decryptor-failed-processing,ftcp-batch-alerts,ftcp-ingest-processed",
     "parent": "ftcp-ingest-decrypted-raw,ftcp-adaptor-errors,ftcp-ingest-2xp",
     "name": "ftcp-decryptor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "ftcp-ingest-2xp",
     "parent": "",
     "name": "ftcp-ingest"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
-    "parent": "ftcp-telemetry-audit-results,ftcp-ingest-2xp",
+    "parent": "ftcp-ingest-2xp,ftcp-telemetry-audit-results",
     "name": "ftcp-telemetry-audit"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "ftcp-tracer-configs"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "ftcp-unbatching-service-abort,ftcp-ingest-processed",
+    "nodeType": "SERVICE",
+    "child": "ftcp-ingest-processed,ftcp-unbatching-service-abort",
     "parent": "ftcp-batch-alerts",
     "name": "ftcp-unbatching-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "kafka-connect-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "fabric-deployment-event-ingest,flow-root,fabric-normalized-resource-command-request-ingest",
-    "parent": "fabric-raw-rekey-command-request-ingest,key-rotation-pending-cloud-key-rotations-topic,state-transition-updates,key-rotation-state-update-info-internal-topic",
+    "nodeType": "SERVICE",
+    "child": "fabric-normalized-resource-command-request-ingest,flow-root,fabric-deployment-event-ingest",
+    "parent": "key-rotation-state-update-info-internal-topic,fabric-raw-rekey-command-request-ingest,state-transition-updates,key-rotation-pending-cloud-key-rotations-topic",
     "name": "key-rotation-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "vehicle-commands",
     "parent": "hivemq-raw-ftcp-telemetry-2xp-high-volume",
     "name": "mqtt-connectivity-monitor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "mqtt-credentials-manager"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "ftcp-ingest-2xp",
-    "parent": "hivemq-raw-ftcp-telemetry-2xp,hivemq-raw-ftcp-telemetry-2xp-high-volume",
+    "parent": "hivemq-raw-ftcp-telemetry-2xp-high-volume,hivemq-raw-ftcp-telemetry-2xp",
     "name": "mqtt-ingest"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "ftcp-state-updates",
     "parent": "vehicle-commands",
     "name": "mqtt-outbound"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "provisioning-audit",
     "name": "provisioning-audit-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "provisioning-feed-ingest,ftcp-ingest-2xp",
     "parent": "",
     "name": "provisioning-monitor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "spring-test-china-unified-v3"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "spring-test-cn",
     "parent": "",
     "name": "spring-test-cn"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "spring-test-unified-v2"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "iam-permissions,tmc-telemetry-ingest,telemetry-ingest-billable-accounts-table,flow-root",
+    "nodeType": "SERVICE",
+    "child": "tmc-telemetry-ingest,telemetry-ingest-billable-accounts-table,flow-root,iam-permissions",
     "parent": "",
     "name": "telemetry-ingest-usage-collector"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "ftcp-batch-alerts,raw-root-v2,edge-processor-internal-publish-request-ingest,ftcp-ingest-processed,ftcp-ingest,flow-root",
+    "nodeType": "SERVICE",
+    "child": "ftcp-ingest,ftcp-batch-alerts,flow-root,ftcp-ingest-processed,raw-root-v2,edge-processor-internal-publish-request-ingest",
     "parent": "ftcp-ingest-2xp,ftcp-ingest-processed",
     "name": "tms-e2e-monitor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "usage-collector-cron"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "usage-collector-resolver"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "usage-collector-rest"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "vehicle-simulation"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "workflow-processing-engine-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "assets-account-consistency-monitor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "assets-cache-consistency-monitor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "asset-crud-events",
     "name": "assets-cache-writer"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "assets-migration-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "device-binding-change-events,asset-crud-events,asset-change-events",
+    "nodeType": "SERVICE",
+    "child": "asset-change-events,asset-crud-events,device-binding-change-events",
     "parent": "dbz-device-binding-change-events,asset-crud-events",
     "name": "assets-processors"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "assets-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "asset-v3-events",
     "name": "assets-v3-cache-writer"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "vin-decoder-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "group-admin-api"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "fabric-raw-rekey-command-request-ingest,fabric-normalized-resource-command-request-ingest",
+    "nodeType": "SERVICE",
+    "child": "fabric-normalized-resource-command-request-ingest,fabric-raw-rekey-command-request-ingest",
     "parent": "state-transition-updates",
     "name": "oem-command-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "vehicle-api"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "command-state-processor-initial-command-ingest,speed,preclusion-state-transitions,fabric-raw-rekey-command-request-ingest,fabric-normalized-resource-command-request-ingest",
+    "nodeType": "SERVICE",
+    "child": "speed,fabric-raw-rekey-command-request-ingest,command-state-processor-initial-command-ingest,fabric-normalized-resource-command-request-ingest,preclusion-state-transitions",
     "parent": "",
     "name": "chat-command-api"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "command-state-processor-initial-command-ingest,state-transition-updates,chat-command-state-update-load,fabric-normalized-resource-command-request-ingest",
+    "nodeType": "SERVICE",
+    "child": "fabric-normalized-resource-command-request-ingest,command-state-processor-initial-command-ingest,state-transition-updates,chat-command-state-update-load",
     "parent": "",
     "name": "chat-command-state-processor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "fabric-common-spring"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "flow-datasource-diagnostic-root,data-validation-events,raw-root-v2,asset-state-transitions,device-binding-change-events,flow-diagnostics-root,flow-root,asset-change-events",
+    "nodeType": "SERVICE",
+    "child": "asset-state-transitions,device-binding-change-events,data-validation-events,asset-change-events,flow-root,flow-diagnostics-root,raw-root-v2,flow-datasource-diagnostic-root",
     "parent": "",
     "name": "feed-common-spring"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "flow-feed-au-static-testflow,edge-processor-internal-publish-request-ingest,edge-publish-ingest",
+    "nodeType": "SERVICE",
+    "child": "edge-publish-ingest,flow-feed-au-static-testflow,edge-processor-internal-publish-request-ingest",
     "parent": "",
     "name": "redeef"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "command-summary-grpc"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "state-transition-updates",
     "name": "command-summary-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "deployment-failed-matchers,device-deployment-service-internal-events,fabric-deployment-event-ingest,device-deployment-initial-device-state,device-deployment-state-internal,fabric-normalized-resource-command-request-ingest",
-    "parent": "fabric-deployment-events,deployment-service-internal-cancellation-requests,deployment-request-by-bundle",
+    "nodeType": "SERVICE",
+    "child": "fabric-deployment-event-ingest,device-deployment-state-internal,deployment-failed-matchers,device-deployment-initial-device-state,fabric-normalized-resource-command-request-ingest,device-deployment-service-internal-events",
+    "parent": "deployment-request-by-bundle,fabric-deployment-events,deployment-service-internal-cancellation-requests",
     "name": "deployment-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "spring-test-unified-v3"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "flow-root",
     "parent": "",
     "name": "bootstrap-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "bytestream-service-client-id-updates,fabric-deployment-event-ingest,raw-root-v2,flow-raw-root,bytestream-service-device-id-updates,inbound-device-deployment-events,bytestream-service-internal-events,connectivity-state-updates,outbound-command-rejections,mmota-connectivity-state-updates,outbound-device-deployments",
+    "nodeType": "SERVICE",
+    "child": "inbound-device-deployment-events,mmota-connectivity-state-updates,bytestream-service-internal-events,fabric-deployment-event-ingest,outbound-device-deployments,bytestream-service-device-id-updates,connectivity-state-updates,flow-raw-root,raw-root-v2,outbound-command-rejections,bytestream-service-client-id-updates",
     "parent": "outbound-command-rejections,outbound-fnv2-mmota-commands",
     "name": "edge-fnv2-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "cms-command-request-ingest,edge-publish-encrypted-ingest,data-validation-events,fabric-deployment-event-ingest,raw-root-v2,preclusion-state-transitions,connectivity-state-updates,edge-processor-publish-request-ingest,flow-root",
-    "parent": "edge-preclusion-state-transitions,edge-processor-internal-publish-request-ingest,edge-processor-internal-command-request-ingest,edge-publish-ingest,edge-processor-internal-encrypted-publish-request-ingest",
+    "nodeType": "SERVICE",
+    "child": "edge-publish-encrypted-ingest,fabric-deployment-event-ingest,preclusion-state-transitions,connectivity-state-updates,data-validation-events,flow-root,cms-command-request-ingest,raw-root-v2,edge-processor-publish-request-ingest",
+    "parent": "edge-publish-ingest,edge-processor-internal-encrypted-publish-request-ingest,edge-processor-internal-command-request-ingest,edge-preclusion-state-transitions,edge-processor-internal-publish-request-ingest",
     "name": "edge-processor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "edge-publish-encrypted-ingest,bytestream-service-client-id-updates,data-validation-events,fabric-deployment-event-ingest,fabric-outbound-deployments,edge-connectivity-events,bytestream-service-device-id-updates,edge-processor-internal-publish-request-ingest,inbound-device-deployment-events,bytestream-service-internal-events,connectivity-state-updates,edge-processor-publish-request-ingest,outbound-device-deployments,edge-publish-ingest,device-connectivity-events,edge-processor-internal-encrypted-publish-request-ingest",
+    "nodeType": "SERVICE",
+    "child": "inbound-device-deployment-events,edge-publish-ingest,fabric-outbound-deployments,bytestream-service-internal-events,edge-publish-encrypted-ingest,fabric-deployment-event-ingest,outbound-device-deployments,bytestream-service-device-id-updates,edge-processor-internal-encrypted-publish-request-ingest,edge-processor-internal-publish-request-ingest,connectivity-state-updates,edge-connectivity-events,data-validation-events,edge-processor-publish-request-ingest,device-connectivity-events,bytestream-service-client-id-updates",
     "parent": "",
     "name": "edge-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "feed-flow-info",
     "parent": "",
     "name": "feeder"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "ftcp-ingest,data-validation-events",
     "parent": "ftcp-adaptor-errors",
     "name": "ftcp-adaptor-error-reporter"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "ftcp-command-monitor-state-transitions,ftcp-state-updates,ftcp-ingest-2xp,ftcp-raw-cloud-to-device,vehicle-commands,vsdn-outbound-requests,ftcp-ingest-processed",
+    "nodeType": "SERVICE",
+    "child": "ftcp-raw-cloud-to-device,ftcp-command-monitor-state-transitions,ftcp-state-updates,vehicle-commands,ftcp-ingest-2xp,vsdn-outbound-requests,ftcp-ingest-processed",
     "parent": "",
     "name": "ftcp-command-e2e-monitor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "ftcp-state-updates,edge-processor-internal-publish-request-ingest,ftcp-adaptor-errors,command-responses-abort-topic",
+    "nodeType": "SERVICE",
+    "child": "ftcp-adaptor-errors,edge-processor-internal-publish-request-ingest,command-responses-abort-topic,ftcp-state-updates",
     "parent": "ftcp-ingest-processed",
     "name": "ftcp-command-responses"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "ftcp-correlation-mapper"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "preclusion-state-transitions,ftcp-connectivity-aborted-messages,ftcp-adaptor-errors,connectivity-state-updates",
+    "nodeType": "SERVICE",
+    "child": "connectivity-state-updates,preclusion-state-transitions,ftcp-connectivity-aborted-messages,ftcp-adaptor-errors",
     "parent": "ftcp-connectivity-lost-connection,ftcp-ingest-processed",
     "name": "ftcp-device-readiness"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "vehicle-commands-vsdn,raw-root-v2,ftcp-raw-cloud-to-device",
+    "nodeType": "SERVICE",
+    "child": "vehicle-commands-vsdn,ftcp-raw-cloud-to-device,raw-root-v2",
     "parent": "ftcp-ingest-decrypted-raw",
     "name": "ftcp-raw-packager"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "fabric-deployment-event-ingest,ftcp-command-monitor-state-transitions",
+    "nodeType": "SERVICE",
+    "child": "ftcp-command-monitor-state-transitions,fabric-deployment-event-ingest",
     "parent": "ftcp-state-updates",
     "name": "ftcp-state-reporter"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "tms-assets-client-config"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "ftcp-state-updates,vsdn-bridge-external-logs",
+    "nodeType": "SERVICE",
+    "child": "vsdn-bridge-external-logs,ftcp-state-updates",
     "parent": "vehicle-commands-vsdn",
     "name": "vsdn-connect"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "key-management"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "cortex-monitor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "insights-dictionary-aggregator"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "inventory-service-monitor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "inventory-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "fabric-raw-rekey-command-request-ingest",
     "parent": "",
     "name": "key-rotation-gateway"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "registration-service-monitor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "resource-search-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "syncp-message"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "data-key-service"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "flow-datasource-diagnostic-root",
     "parent": "mqtt-connectivity-external-logs,vsdn-bridge-external-logs",
     "name": "tail-race"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "feed-container-placement-config,feed-tap-info,device-binding-change-events,feed-flow-info,asset-change-events",
+    "nodeType": "SERVICE",
+    "child": "feed-flow-info,device-binding-change-events,feed-tap-info,feed-container-placement-config,asset-change-events",
     "parent": "",
     "name": "coordinator"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "feedapi"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "feed-flow-info,feed-topic-info,feed-topic-event,feed-tap-info",
-    "parent": "feed-topic-event,feed-tap-event",
+    "nodeType": "SERVICE",
+    "child": "feed-tap-info,feed-topic-info,feed-topic-event,feed-flow-info",
+    "parent": "feed-tap-event,feed-topic-event",
     "name": "flow-manager"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "iam-resources,iam-change-events",
+    "nodeType": "SERVICE",
+    "child": "iam-change-events,iam-resources",
     "parent": "",
     "name": "account-service-spring"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "iam-firehose"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "iam-insights"
   },
   {
-    "nodeType": "NodeType.SERVICE",
-    "child": "group-asset-op,iam-change-events,iam-memberships,iam-resources,group-account,group-asset,iam-permissions,iam-flow-events",
+    "nodeType": "SERVICE",
+    "child": "group-account,group-asset,iam-flow-events,iam-memberships,iam-change-events,iam-resources,group-asset-op,iam-permissions",
     "parent": "",
     "name": "iam-processor"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
-    "parent": "iam-resources,asset-v3-events",
+    "parent": "asset-v3-events,iam-resources",
     "name": "iam-simulator"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "iam-flow-events",
     "parent": "",
     "name": "iam"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "",
     "name": "connectivity-provider-common-spring"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "encrypted-outbound-ftcp-commands",
     "parent": "",
     "name": "ftcp-command-relay"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
     "parent": "intercepted-outbound-tcu-commands",
     "name": "mqtt-message-event-router"
   },
   {
-    "nodeType": "NodeType.SERVICE",
+    "nodeType": "SERVICE",
     "child": "",
-    "parent": "intercepted-outbound-tcu-commands,encrypted-outbound-ftcp-commands,ftcp-ingest-processed",
+    "parent": "ftcp-ingest-processed,intercepted-outbound-tcu-commands,encrypted-outbound-ftcp-commands",
     "name": "vsdn-migration-command-tracker"
   }
 ]

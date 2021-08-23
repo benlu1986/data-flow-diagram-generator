@@ -1,0 +1,290 @@
+apiVersion: v1
+items:
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    annotations:
+      deployment.kubernetes.io/revision: "32"
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"labels":{"app":"aba-swap-detector","app.kubernetes.io/component":"aba-swap-detector","app.kubernetes.io/instance":"aba-swap-detector-cnp0-alfa","app.kubernetes.io/managed-by":"Helm","app.kubernetes.io/name":"aba-swap-detector","app.kubernetes.io/version":"0.0.114","autonomic.ai/component-full-name":"aba-swap-detector","autonomic.ai/kafka-access":"true","autonomic.ai/team":"canis-minor","baseChart":"base-3.1.42","chart":"aba-swap-detector-0.0.1","component":"aba-swap-detector","heritage":"Helm","kafka":"true","release":"aba-swap-detector"},"name":"aba-swap-detector","namespace":"alfa"},"spec":{"replicas":6,"revisionHistoryLimit":2,"selector":{"matchLabels":{"app":"aba-swap-detector","component":"aba-swap-detector","release":"aba-swap-detector"}},"template":{"metadata":{"annotations":{"chaos.alpha.kubernetes.io/enabled":"true","prometheus.io/path":"/actuator/prometheus","prometheus.io/port":"8081","prometheus.io/scrape":"true"},"labels":{"app":"aba-swap-detector","app.kubernetes.io/component":"aba-swap-detector","app.kubernetes.io/instance":"aba-swap-detector","app.kubernetes.io/managed-by":"Helm","app.kubernetes.io/name":"aba-swap-detector","app.kubernetes.io/version":"0.0.114","autonomic.ai/api-server-access":"true","autonomic.ai/component-full-name":"aba-swap-detector","autonomic.ai/kafka-access":"true","autonomic.ai/team":"canis-minor","baseChart":"base-3.1.42","chart":"aba-swap-detector-0.0.1","component":"aba-swap-detector","heritage":"Helm","kafka":"true","release":"aba-swap-detector"}},"spec":{"affinity":{"podAntiAffinity":{"requiredDuringSchedulingIgnoredDuringExecution":[{"labelSelector":{"matchExpressions":[{"key":"app","operator":"In","values":["aba-swap-detector"]}]},"topologyKey":"kubernetes.io/hostname"}]}},"containers":[{"env":[{"name":"DD_INTEGRATION_KAFKA_ENABLED","value":"true"},{"name":"DD_KAFKA_ANALYTICS_ENABLED","value":"true"},{"name":"GLOBAL_KAFKA_BROKERS","value":"kafka-brokers.kafka-service-tools:9092"},{"name":"GLOBAL_KAFKA_ENDPOINT","value":"kafka-brokers.kafka-service-tools"},{"name":"GLOBAL_KAFKA_REPLICATIONFACTOR","value":"3"},{"name":"JAVA_TOOL_OPTIONS","value":"-Xmx512m -Xms512m -Xms512M -Xmx512M -XX:+UseG1GC"},{"name":"KAFKA_ENDPOINT","value":"kafka-brokers.kafka-service-tools"},{"name":"SPRING_APPLICATION_JSON","value":"{\"spring\":{\"application\":{\"name\":\"aba-swap-detector\"},\"cloud\":{\"kubernetes\":{\"config\":{\"name\":\"aba-swap-detector-spring\",\"sources\":[{\"name\":\"aba-swap-detector-spring\"},{\"name\":\"connectivity-provider-common-spring\"},{\"name\":\"canis-minor-common-spring\"}]},\"reload\":{\"enabled\":true,\"mode\":\"polling\",\"strategy\":\"restart_context\"}}},\"profiles\":{\"active\":\"cnp0,kubernetes\"}}}"}],"image":"887649816813.dkr.ecr.cn-northwest-1.amazonaws.com.cn/au/aba-swap-detector:0.0.114","imagePullPolicy":"IfNotPresent","livenessProbe":{"httpGet":{"path":"/actuator/liveness","port":8081},"initialDelaySeconds":120},"name":"aba-swap-detector","ports":[{"containerPort":8081}],"readinessProbe":{"httpGet":{"path":"/actuator/readiness","port":8081},"initialDelaySeconds":40},"resources":{"limits":{"cpu":1,"memory":"2Gi"},"requests":{"cpu":"300m","memory":"1536Mi"}},"securityContext":{"allowPrivilegeEscalation":false},"volumeMounts":[],"workingDir":"/home/au"}],"dnsConfig":{"searches":["aba-swap-detector.baddns.local","alfa.svc.cluster.local"]},"imagePullSecrets":[{"name":"autonomic-docker"}],"securityContext":{"fsGroup":1000,"runAsNonRoot":true,"runAsUser":1000},"serviceAccountName":"aba-swap-detector","terminationGracePeriodSeconds":30,"volumes":[{"configMap":{"name":"canis-minor-common-spring"},"name":"canis-minor-common-spring"},{"configMap":{"name":"connectivity-provider-common-spring"},"name":"connectivity-provider-common-spring"}]}}}}
+    creationTimestamp: "2020-08-07T20:48:20Z"
+    generation: 32
+    labels:
+      app: aba-swap-detector
+      app.kubernetes.io/component: aba-swap-detector
+      app.kubernetes.io/instance: aba-swap-detector-cnp0-alfa
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: aba-swap-detector
+      app.kubernetes.io/version: 0.0.114
+      autonomic.ai/component-full-name: aba-swap-detector
+      autonomic.ai/kafka-access: "true"
+      autonomic.ai/team: canis-minor
+      baseChart: base-3.1.42
+      chart: aba-swap-detector-0.0.1
+      component: aba-swap-detector
+      heritage: Helm
+      kafka: "true"
+      release: aba-swap-detector
+    name: aba-swap-detector
+    namespace: alfa
+    resourceVersion: "354596151"
+    selfLink: /apis/apps/v1/namespaces/alfa/deployments/aba-swap-detector
+    uid: 541ae715-d8ef-11ea-a3c1-02eb7138b112
+  spec:
+    progressDeadlineSeconds: 600
+    replicas: 6
+    revisionHistoryLimit: 2
+    selector:
+      matchLabels:
+        app: aba-swap-detector
+        component: aba-swap-detector
+        release: aba-swap-detector
+    strategy:
+      rollingUpdate:
+        maxSurge: 25%
+        maxUnavailable: 25%
+      type: RollingUpdate
+    template:
+      metadata:
+        annotations:
+          chaos.alpha.kubernetes.io/enabled: "true"
+          prometheus.io/path: /actuator/prometheus
+          prometheus.io/port: "8081"
+          prometheus.io/scrape: "true"
+        creationTimestamp: null
+        labels:
+          app: aba-swap-detector
+          app.kubernetes.io/component: aba-swap-detector
+          app.kubernetes.io/instance: aba-swap-detector
+          app.kubernetes.io/managed-by: Helm
+          app.kubernetes.io/name: aba-swap-detector
+          app.kubernetes.io/version: 0.0.114
+          autonomic.ai/api-server-access: "true"
+          autonomic.ai/component-full-name: aba-swap-detector
+          autonomic.ai/kafka-access: "true"
+          autonomic.ai/team: canis-minor
+          baseChart: base-3.1.42
+          chart: aba-swap-detector-0.0.1
+          component: aba-swap-detector
+          heritage: Helm
+          kafka: "true"
+          release: aba-swap-detector
+      spec:
+        affinity:
+          podAntiAffinity:
+            requiredDuringSchedulingIgnoredDuringExecution:
+            - labelSelector:
+                matchExpressions:
+                - key: app
+                  operator: In
+                  values:
+                  - aba-swap-detector
+              topologyKey: kubernetes.io/hostname
+        containers:
+        - env:
+          - name: DD_INTEGRATION_KAFKA_ENABLED
+            value: "true"
+          - name: DD_KAFKA_ANALYTICS_ENABLED
+            value: "true"
+          - name: GLOBAL_KAFKA_BROKERS
+            value: kafka-brokers.kafka-service-tools:9092
+          - name: GLOBAL_KAFKA_ENDPOINT
+            value: kafka-brokers.kafka-service-tools
+          - name: GLOBAL_KAFKA_REPLICATIONFACTOR
+            value: "3"
+          - name: JAVA_TOOL_OPTIONS
+            value: -Xmx512m -Xms512m -Xms512M -Xmx512M -XX:+UseG1GC
+          - name: KAFKA_ENDPOINT
+            value: kafka-brokers.kafka-service-tools
+          - name: SPRING_APPLICATION_JSON
+            value: '{"spring":{"application":{"name":"aba-swap-detector"},"cloud":{"kubernetes":{"config":{"name":"aba-swap-detector-spring","sources":[{"name":"aba-swap-detector-spring"},{"name":"connectivity-provider-common-spring"},{"name":"canis-minor-common-spring"}]},"reload":{"enabled":true,"mode":"polling","strategy":"restart_context"}}},"profiles":{"active":"cnp0,kubernetes"}}}'
+          image: 887649816813.dkr.ecr.cn-northwest-1.amazonaws.com.cn/au/aba-swap-detector:0.0.114
+          imagePullPolicy: IfNotPresent
+          livenessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /actuator/liveness
+              port: 8081
+              scheme: HTTP
+            initialDelaySeconds: 120
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          name: aba-swap-detector
+          ports:
+          - containerPort: 8081
+            protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /actuator/readiness
+              port: 8081
+              scheme: HTTP
+            initialDelaySeconds: 40
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          resources:
+            limits:
+              cpu: "1"
+              memory: 2Gi
+            requests:
+              cpu: 300m
+              memory: 1536Mi
+          securityContext:
+            allowPrivilegeEscalation: false
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          workingDir: /home/au
+        dnsConfig:
+          searches:
+          - aba-swap-detector.baddns.local
+          - alfa.svc.cluster.local
+        dnsPolicy: ClusterFirst
+        imagePullSecrets:
+        - name: autonomic-docker
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext:
+          fsGroup: 1000
+          runAsNonRoot: true
+          runAsUser: 1000
+        serviceAccount: aba-swap-detector
+        serviceAccountName: aba-swap-detector
+        terminationGracePeriodSeconds: 30
+        volumes:
+        - configMap:
+            defaultMode: 420
+            name: canis-minor-common-spring
+          name: canis-minor-common-spring
+        - configMap:
+            defaultMode: 420
+            name: connectivity-provider-common-spring
+          name: connectivity-provider-common-spring
+  status:
+    availableReplicas: 6
+    conditions:
+    - lastTransitionTime: "2021-07-29T19:38:19Z"
+      lastUpdateTime: "2021-07-29T19:38:19Z"
+      message: Deployment has minimum availability.
+      reason: MinimumReplicasAvailable
+      status: "True"
+      type: Available
+    - lastTransitionTime: "2020-08-07T20:48:20Z"
+      lastUpdateTime: "2021-07-29T19:38:48Z"
+      message: ReplicaSet "aba-swap-detector-6bb98b7bd" has successfully progressed.
+      reason: NewReplicaSetAvailable
+      status: "True"
+      type: Progressing
+    observedGeneration: 32
+    readyReplicas: 6
+    replicas: 6
+    updatedReplicas: 6
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    annotations:
+      deployment.kubernetes.io/revision: "3"
+      helm.sh/created: "1599064795"
+    creationTimestamp: "2020-08-21T00:38:14Z"
+    generation: 6
+    labels:
+      app: au-spark
+      autonomic.ai/team: accounts-identity
+      chart: au-spark-0.0.1
+      component: au-spark-spark-master
+      heritage: Tiller
+      release: au-spark
+    name: au-spark-master
+    namespace: alfa
+    resourceVersion: "198012267"
+    selfLink: /apis/apps/v1/namespaces/alfa/deployments/au-spark-master
+    uid: 9952b697-e346-11ea-92e8-0a19db95a8e8
+  spec:
+    progressDeadlineSeconds: 2147483647
+    replicas: 0
+    revisionHistoryLimit: 10
+    selector:
+      matchLabels:
+        component: au-spark-spark-master
+    strategy:
+      rollingUpdate:
+        maxSurge: 1
+        maxUnavailable: 1
+      type: RollingUpdate
+    template:
+      metadata:
+        annotations:
+          iam.amazonaws.com/role: k8s/alfa/usage-prod.role
+        creationTimestamp: null
+        labels:
+          app: au-spark
+          autonomic.ai/team: accounts-identity
+          chart: au-spark-0.0.1
+          component: au-spark-spark-master
+          heritage: Tiller
+          release: au-spark
+      spec:
+        containers:
+        - args:
+          - echo $(hostname -i) au-spark-master >> /etc/hosts; /opt/spark/bin/spark-class
+            org.apache.spark.deploy.master.Master --ip au-spark-master --port 7077
+            --webui-port 8080
+          command:
+          - /bin/sh
+          - -c
+          env:
+          - name: SPARK_DAEMON_MEMORY
+            value: 512m
+          - name: DB_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                key: db-password
+                name: usage-collector
+          - name: DB_USERNAME
+            valueFrom:
+              secretKeyRef:
+                key: db-username
+                name: usage-collector
+          - name: DB_URL
+            valueFrom:
+              secretKeyRef:
+                key: db-url
+                name: usage-collector
+          image: registry.cn-shanghai.aliyuncs.com/au/au-spark-3.0.0:0.0.10
+          imagePullPolicy: IfNotPresent
+          name: au-spark-master
+          ports:
+          - containerPort: 7077
+            protocol: TCP
+          - containerPort: 8080
+            protocol: TCP
+          resources:
+            limits:
+              cpu: "1"
+              memory: 5128Mi
+            requests:
+              cpu: 200m
+              memory: 256Mi
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+        dnsPolicy: ClusterFirst
+        imagePullSecrets:
+        - name: autonomic-docker
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+  status:
+    conditions:
+    - lastTransitionTime: "2020-08-21T00:38:14Z"
+      lastUpdateTime: "2020-08-21T00:38:14Z"
+      message: Deployment has minimum availability.
+      reason: MinimumReplicasAvailable
+      status: "True"
+      type: Available
+    observedGeneration: 6
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""

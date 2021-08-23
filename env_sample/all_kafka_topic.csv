@@ -1,0 +1,10 @@
+NO_OP_TOPIC
+__CruiseControlMetrics
+__consumer_offsets
+__debezium-heartbeat.assets
+__transaction_state
+account-coordinator-event-consumer-offsets-v1-AccountUpdateQuerier
+account-coordinator-event-consumer-offsets-v1-ClientUpdateQuerier
+account-coordinator-event-consumer-offsets-v1-KeycloakNewUserQuerier
+account-coordinator-event-consumer-offsets-v1-UserUpdateQuerier
+account-coordinator-states-v1

@@ -1,19 +1,14 @@
 import graphviz
+from utils import key_with_suffix
 from node import Node
 from node import NodeType
 
 def __build_node_graph(dot, node_iter):
   for node in node_iter:
     if node.nodeType == NodeType.SERVICE:
-      dot.node(__with_suffix(node), node.name, shape='component')
+      dot.node(key_with_suffix(node.nodeType, node.name), node.name, shape='component')
     else:
-      dot.node(__with_suffix(node), node.name, shape='diamond')
-
-def __with_suffix(node):
-  if node.nodeType == NodeType.SERVICE:
-    return node.name + '-s'
-  else:
-    return node.name + '-t'
+      dot.node(key_with_suffix(node.nodeType, node.name), node.name, shape='diamond')
 
 def __render(dot, queue, visited_set, upstreamOrDownstream, l=-1, ignore_node_set=set()): 
   # upstreamOrDownstream: 1: upstream; 2: downstream
@@ -32,9 +27,9 @@ def __render(dot, queue, visited_set, upstreamOrDownstream, l=-1, ignore_node_se
         if node not in ignore_node_set and l != 0:
           temp_q.append(node)
           if upstreamOrDownstream == 1:
-            dot.edge(__with_suffix(node), __with_suffix(root))
+            dot.edge(key_with_suffix(node.nodeType, node.name), key_with_suffix(root.nodeType, root.name))
           else:
-            dot.edge(__with_suffix(root), __with_suffix(node))
+            dot.edge(key_with_suffix(root.nodeType, root.name), key_with_suffix(node.nodeType, node.name))
       visited_set.add(root)
   
   queue.extend(temp_q)

@@ -13,7 +13,7 @@ The tool targets to generate a data flow diagram of au system.
 ---
 ## Usage
 ### Draw Diagram
-python main.py [-s <service_name>] [-t <topic_name>] [-f <node_json_file>] [-u] [-d] [-l <level>] [-i <ignore_service_names>]
+python main.py -s|-t <name> -f <node_json_file> [-u] [-d] [-l <level>] [-i <ignore_service_names>]
 
 -s <service_name>: diagram would show the diagram containing the name of the service the data passes through 
 
@@ -32,11 +32,11 @@ python main.py [-s <service_name>] [-t <topic_name>] [-f <node_json_file>] [-u] 
 ---
 ### Generate Nodes Data
 python build.py -h \\  
-&ensp;&ensp;&ensp;&ensp;[topic_csv_file=<topic_csv_file_path>] \\  
-&ensp;&ensp;&ensp;&ensp;[kafka_consumer_group_csv_file=<kafka_consumer_group_csv_file_path>] \\  
-&ensp;&ensp;&ensp;&ensp;[deployment_yaml_file=<deployment_yaml_file>] \\  
-&ensp;&ensp;&ensp;&ensp;[stateful_yaml_file=<stateful_yaml_file>] \\  
-&ensp;&ensp;&ensp;&ensp;[configmap_yaml_file=<configmap_yaml_file>]
+&ensp;&ensp;&ensp;&ensp;--topic_csv_file=<topic_csv_file_path> \\  
+&ensp;&ensp;&ensp;&ensp;--kafka_consumer_group_csv_file=<kafka_consumer_group_csv_file_path> \\  
+&ensp;&ensp;&ensp;&ensp;--deployment_yaml_file=<deployment_yaml_file> \\  
+&ensp;&ensp;&ensp;&ensp;--stateful_yaml_file=<stateful_yaml_file> \\  
+&ensp;&ensp;&ensp;&ensp;--configmap_yaml_file=<configmap_yaml_file>
 
 #### sample files are in ../env_sample/ 
 
